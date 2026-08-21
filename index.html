@@ -4,7 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Parimala Alva, Ph.D. — AI Educator &amp; Agentic AI Practitioner</title>
-  <meta name="description" content="AI Enablement Leader, Technical Educator , AI Researcher , PhD, Computer Science. Portfolio, projects, and teaching resources." />
+  <meta name="description" content="AI instructor, researcher, and Generative AI / Agentic AI practitioner. Portfolio, projects, and teaching resources." />
   <link rel="icon" href="data:," />
   <link rel="stylesheet" href="styles.css" />
 </head>
@@ -30,13 +30,13 @@
     <!-- HERO -->
     <section class="hero">
       <div class="hero-text">
+        <p class="eyebrow">AI Educator &amp; Enabler · AI Researcher · Generative &amp; Agentic AI Practitioner</p>
         <h1>Parimala Alva, Ph.D.</h1>
-        <p class="eyebrow">AI Enablement Leader &amp; Technical Educator · AI Researcher · PhD, Computer Science</p>
         <p class="hero-summary">
-          I combine 20+ years of software engineering, computer science research, and teaching experience to help organizations rapidly adopt AI.
-          I specialize in building functional, cutting-edge AI systems using LangChain, LangGraph, RAG, and Model Context Protocol (MCP). I use these 
-          implementations to create hands-on coding labs, clear training programs, and human-in-the-loop workflows. My passion is bridging the gap between 
-          advanced AI concepts and engineering teams, translating complex agentic frameworks into practical skills that safely accelerate software development.
+          20+ years across higher education and software engineering, now focused on building
+          Generative AI and Agentic AI systems — and teaching others to build them too.
+          LangChain, LangGraph, RAG, MCP, and human-in-the-loop workflows, translated into
+          curricula, hands-on labs, and mentoring that actually land with learners.
         </p>
         <div class="hero-actions">
           <a href="#projects" class="btn btn-primary">View Projects</a>
@@ -103,35 +103,37 @@
       <p class="section-subtitle">Applied Generative AI &amp; Agentic AI projects — click a tab to see details.</p>
 
       <div class="project-tabs" role="tablist">
-        <button class="project-tab is-active" role="tab" data-target="project-sdlc-coach">AI SDLC Coach</button>
+        <button class="project-tab is-active" role="tab" data-target="project-onboarding-engineer">AI Onboarding Engineer</button>
         <button class="project-tab" role="tab" data-target="project-triage">Clinical Triage Assistant</button>
         <button class="project-tab" role="tab" data-target="project-agentic-demos">Agentic Workflow Demos</button>
       </div>
 
       <div class="project-panels">
 
-        <article id="project-sdlc-coach" class="project-panel is-active">
-          <h3>AI SDLC Coach</h3>
-          <p class="project-tagline">A mode-switching LangChain agent: code reviewer and solution architect tutor, in one.</p>
+        <article id="project-onboarding-engineer" class="project-panel is-active">
+          <h3>AI Onboarding Engineer</h3>
+          <p class="project-tagline">A LangGraph agent that turns any document set into a hands-on, self-paced onboarding course.</p>
           <p>
-            A LangChain tool-calling agent with two personas sharing one prompt-engineering
-            discipline and one Pydantic-validated output contract. The Code Reviewer runs real
-            static analysis (bare excepts, mutable defaults, possible SQL injection, cyclomatic
-            complexity) before producing severity-ranked findings. The Architecture Tutor
-            retrieves grounded trade-offs from a local knowledge base and always ends in guiding
-            questions instead of a flat verdict. Ships with a framework-optional offline backend
-            (fully testable without an API key), a full test suite, and a recorded reasoning
-            transcript.
+            Runs as a three-step pipeline — design a syllabus, generate a lab, then review the
+            learner's answer — with each step retrieving grounded context from a Pinecone vector
+            store, so lessons, quizzes, and reference sheets stay traceable back to real source
+            material rather than the model's own guesses. Every step produces a short-answer
+            challenge, a 4-option auto-graded quiz, and a downloadable cheat-sheet together, using
+            structured, validated outputs instead of free-form text. Session state lives in
+            Postgres, so the whole app runs as stateless serverless functions on Vercel — point
+            the ingestion pipeline at any docs or codebase, and it becomes the material learners
+            are onboarded against.
           </p>
           <ul class="tech-tags">
-            <li>LangChain</li>
+            <li>LangGraph</li>
+            <li>RAG</li>
+            <li>Pinecone</li>
+            <li>PostgreSQL</li>
+            <li>Vercel</li>
             <li>Python</li>
-            <li>FastAPI</li>
-            <li>React</li>
-            <li>Pydantic</li>
           </ul>
           <div class="project-links">
-            <a href="#" class="btn btn-small btn-primary">Live Demo — UPDATE_ME</a>
+            <a href="https://ai-onboarding-engineer-4umq3nhjf-pa11aajs-projects.vercel.app/" target="_blank" rel="noreferrer" class="btn btn-small btn-primary">Live Demo</a>
             <a href="#" class="btn btn-small btn-secondary">GitHub — UPDATE_ME</a>
           </div>
         </article>
