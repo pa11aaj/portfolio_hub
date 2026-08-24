@@ -1,4 +1,4 @@
-# Parimala Alva — Portfolio Hub
+# Parimala Alva ---> Portfolio Hub
 
 A single static site (no build step, no framework, no dependencies) — the "hub" site for your
 resume portfolio: qualifications, experience, skills, a tabbed projects section, a video
