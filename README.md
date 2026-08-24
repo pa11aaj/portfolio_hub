@@ -9,8 +9,8 @@ portfolio-hub/
 ├── styles.css
 ├── script.js
 ├── assets/
-│   ├── parimala-photo.jpg
-│   └── Parimala_Alva_Resume.pdf
+│   ├── profile-photo.jpg
+│   └── AI_Enablement_Resume.pdf
 └── README.md
 ```
 
